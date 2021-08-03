@@ -1,0 +1,22 @@
+@charset "utf-8";
+html{
+  font-family: sans-serif;
+  font-size: 62.5%
+}
+.wrapper{
+  background: url(../images/DJI_0004.jpg) no-repeat fixed left bottom;
+  background-size: cover;
+}
+.wrapper .top-nav
+.about{
+  background: url(../images/2AF415A6-37BA-42DE-9B81-9196297D2461_1_105_c.jpg) no-repeat fixed left bottom;
+}
+.services{
+  background:url(../images/マスクグループ\ 6.jpg) no-repeat fixed left bottom ;
+}
+.contact{
+  background: url(../images/マスクグループ\ 7.png) no-repeat fixed left bottom;
+}
+.footer{
+  background: url(../images/マスクグループ\ 4.jpg) no-repeat fixed left bottom;
+}
