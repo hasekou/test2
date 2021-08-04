@@ -8,68 +8,121 @@
 </head>
 <body>
   <div class="wrapper">
-    <header class="header">
-      <a href="index.html" class="top-logo"><img src="images/グループ 6.png" alt="ロゴ"></a>
+    <header class="header" id="home">
+      <h1 class="top-logo"><a href="index.html">ロゴ</a></h1>
       <nav class="top-nav">
         <ul>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="index.html #about" >ABOUT</a></li>
+          <li><a href="index.html #services">SERVICES</a></li>
+          <li><a href="index.html #contact">CONTACT</a></li>
         </ul>
       </nav>
-    </header>
-    <section class="top-section">
-      <h1>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaWebサイト制作・リニューアル<br>Web集客運用・動画撮影・グラフィックデザイン</h1>
-      <p>多方面に対応できる私たちだからこそできること</p>
-      <p>ご検討・お悩みの方は是非ご相談ください</p>
-      <div class="link-contact">
-        <a href="#">お問い合わせはこちら</a>
+      <div class="header-text">
+        <h2>Webサイト制作・リニューアル<br>Web集客運用・動画撮影・グラフィックデザイン</h2>
+        <p>多方面に対応できる私たちだからできること</p>
+        <p>ご検討・お悩みの方は是非ご相談ください</p>
+        <div class="link-contact">
+          <a href="index.html #contact">お問い合わせはこちら</a>
+        </div>
       </div>
-    </section>
+    </header>
   </div>
-  <section class="about">
+  <section class="about" id="about">
     <h1 class="about-item">お客様の「作りたい」を叶える</h1>
     <p class="about-text">Webサイトを作成するにあたり、一番重要なのはお客様への理解です。<br>私たちはお客様ひとりひとりに何が必要か、どういったものを作りたいかを話し合い<br>より満足できるものをご提供します。</p>
     <h1 class="about-item">理想的な素材を「作る」</h1>
     <p class="about-text">写真・動画・グラフィックデザインも自分たちで行うことのできる私たちは<br>Webサイトに仕様する素材を自ら撮影・作成することにより、<br>お客様の理想を実現させることができます。</p>
   </section>
-  <section class="services">
-
+  <section class="services  clearfix" id="services">
+    <h1 class="services-text">SERVICES<br><span>事業内容</span></h1>
+    <div class="services-item">
+      <h2>Webサイト制作・サービス開発
+        <br><span>WEB DESIGN</span></h2>
+      <p>お客様の理想を追求した
+        <br>Webサイトを制作します</p>
+      <p>制作費用　20万円〜　<br>保守　5,000/月〜　</p>
+      <ul>
+        <li>企業・店舗向けWebサイトの制作・リニューアル</li>
+        <li>Webを活用したサービスの開発</li>
+        <li>ドメイン・サーバー取得・保守管理</li>
+        <li>電話・メールでの運用サポート</li>
+      </ul>
+    </div>
+    <div class="services-item">
+      <h2>PV撮影・フォトグラフ撮影
+        <br><span>MOVIE・PHOTOGRAPH</span></h2>
+      <p>広告宣伝用のPV撮影・動画編集<br>写真撮影・画像編集を行わせていただきます</p>
+      <p>動画制作費用　20万円〜　<br>写真撮影費用　5万円〜　</p>
+      <ul>
+        <li>企業・事業紹介PV</li>
+        <li>求人用動画の制作</li>
+        <li>Webサイト用素材画像の撮影</li>
+        <li>フライヤー用素材画像の撮影</li>
+      </ul>
+    </div>
+    <div class="services-item">
+      <h2>各種グラフィックデザイン<br><span>GRAPHIC DESIGN</span></h2>
+      <p>広告宣伝・ブランディングの際に必要な
+      <br>ツールのデザインを制作します</p>
+      <p>制作費用　5万円〜</p>
+      <ul>
+        <li>コンセプトアート制作</li>
+        <li>ロゴ制作</li>
+        <li>名刺制作</li>
+        <li>フライヤー制作</li>
+      </ul>
+    </div>
   </section>
-  <section class="contact">
-    <div class="contact-item">
-      <span class="contact-title">お問い合わせ</span>
+  <section class="contact" id="contact">
+    <div class="contact-text">
+      <h1>各種お問い合わせ</h1>
+      <p>サービスのお見積もりや、ご相談の依頼は無料です。<br>以下のフォームに必要事項をご記入いただき、お気軽にお問い合わせください。<br>一両日中に担当からご連絡差し上げます。</p>
+    </div>
+      <div class="contact-item">
+        <span class="contact-title">お問い合わせ</span>
       <span class="contact-type1">必須</span>
       <input type="text" name="subject" placeholder="お問い合わせ">
     </div>
     <div class="contact-item">
       <span class="contact-title">お名前</span>
       <span class="contact-type1">必須</span>
-      <input type="text" name="subject" placeholder="お問い合わせ">
+      <input type="text" name="subject" placeholder="お名前">
     </div>
     <div class="contact-item">
       <span class="contact-title">会社名</span>
       <span class="contact-type2">任意</span>
-      <input type="text" name="subject" placeholder="お問い合わせ">
+      <input type="text" name="subject" placeholder="会社名">
     </div>
     <div class="contact-item">
       <span class="contact-title">e-mail</span>
       <span class="contact-type1">必須</span>
-      <input type="text" name="subject" placeholder="お問い合わせ">
+      <input type="text" name="subject" placeholder="e-mail">
     </div>
     <div class="contact-item">
       <span class="contact-title">電話番号</span>
       <span class="contact-type2">任意</span>
-      <input type="text" name="subject" placeholder="お問い合わせ">
+      <input type="text" name="subject" placeholder="電話番号">
     </div>
     <div class="contact-item">
       <span class="contact-title">ご質問・ご相談内容</span>
       <span class="contact-type1">必須</span>
-      <input type="text" name="subject" placeholder="お問い合わせ">
+      <textarea name="message" placeholder="ご質問・ご相談内容">
+      <div>
+        <input type="submit" name="submit" value="送信">
+      </div>
     </div>
   </section>
   <footer class="footer">
-
+    <nav class="end-nav">
+      <ul>
+        <li><a href="index.html #home">HOME</a></li>
+        <li><a href="index.html #about">ABOUT</a></li>
+        <li><a href="index.html #services">SEVICES</a></li>
+        <li><a href="index.html #contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <h1 class="end-logo"><a href="index.html #home">ロゴ</a></h1>
+    <p>&copy; Copyright(c) Ki Creation Works All Rights Reserved.</p>
   </footer>
 </body>
 </html>
