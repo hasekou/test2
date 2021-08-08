@@ -9,7 +9,7 @@ html{
 body{
   background-color: black;
   color: white;
-  width: 1920px;
+  max-width: 1920px;
   }
 /* headerのcss */
 .header{ 
@@ -25,13 +25,13 @@ body{
   overflow: hidden;
   margin: 0;
   float: left;
-  height: 68px;
-  width: 115.12px;
+  max-height: 68px;
+  max-width: 115.12px;
 }
 .top-logo a{
   display: block;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .top-nav ul{
   margin: 0;
@@ -140,8 +140,8 @@ line-height: 1.3;
   float: left;
   border: 1px solid black;
   text-align: center;
-  width: 524px;
-  height: 552px;
+  max-width: 524px;
+  max-height: 552px;
   margin: 0px 20px 110px 70px;
 }
 .services-item h2{
@@ -191,8 +191,8 @@ line-height: 1.3;
   list-style-type: none;
   font-size: 15px;
   text-align: left; 
-  width: 447px;
-  height: 112px;
+  max-width: 447px;
+  max-height: 112px;
 }
 .clearfix::after{
   content: '';
@@ -247,13 +247,13 @@ line-height: 1.3;
   padding: 5px 8px 0px 8px;
 }
 input[type="text"]{
-  width: 560px;
-  height: 50px;
+  max-width: 560px;
+  max-height: 50px;
   border-radius: 10px/10px;
 }
 textarea{
-  width: 560px;
-  height: 173px;
+  max-width: 560px;
+  max-height: 173px;
   border-radius: 10px/10px;
 }
 input[type="submit"]{
@@ -261,8 +261,8 @@ input[type="submit"]{
   border: none;
   display: block;
   text-align: center;
-  width: 267px;
-  height: 82px;
+  max-width: 267px;
+  max-height: 82px;
   margin: 0 auto 0px auto;
   font-size: 25px;
   border-radius: 50px/40px;
@@ -287,14 +287,13 @@ input[type="submit"]{
 }
 .end-nav a{
   color: white;
-  font-size: 20px;
   text-decoration: none;
   font-size: 40px;
   padding-right: 40px;
 }
 .end-logo{
-  width: 100px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
   margin: 0 auto;
   background: url(../images/グループ\ 6.png) no-repeat;
   overflow: hidden;
@@ -302,8 +301,8 @@ input[type="submit"]{
   white-space: nowrap;
 }
 .end-logo a{
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   display: block;
 }
 .footer p{
@@ -311,3 +310,190 @@ input[type="submit"]{
   font-size: 15px;
   margin: 0;
 }
+/* /* パソコン用 * */
+@media (min-width:1000px){
+  * *::after *::before{
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .about-item,.about-item1,.services-text1{
+    font-size: 35px;
+  }
+  .header-text p,.about-text,.about-text2,.services-text2,.services-item h2,.si-b2,.si-b3{
+    font-size: 18px;
+  }
+  .services-item span,.si-b1,.submit input{
+    font-size: 12.5px;
+  }
+  .sitem-list ul,.contact-list th,.footer p{
+    font-size: 8.5px;
+  }
+  .top-nav a,.contact-text p{
+    font-size: 12px;
+  }
+  .header-text h2{
+    font-size: 27.5px;
+  }
+  .link-contact{
+    font-size: 17px;
+  }
+  .contact-text h1{
+    font-size: 24px;
+  }
+  .end-nav a{
+    font-size: 20px;
+  }
+  /* ヘッダー */
+  .header-text h2{
+    margin: 115px auto 30px;
+  }
+  .header-text p{
+    margin-bottom: 30px;
+  }
+  .link-contact{
+    margin: 40px auto 115px;
+  }
+  /* ABOUT */
+  .about-item1{
+    padding-top: 77.5px;
+  }
+  .about-text{
+    margin:7.5px auto 7.5px;
+    padding: 20px auto 30px;
+  }
+  /* SERVICES */
+  .services-text1{
+    padding-top: 60px;
+  }
+  .services-item{
+    width: 25%;
+  }
+  .sitem-list ul{
+    width: 80%;
+  }
+  .si-b3{
+    padding-bottom: 8px;
+  }
+  .services-text2{
+    padding-bottom: 50px;
+  }
+  /* CONTACT */
+  .contact-list {
+    margin: 0 auto;
+  }
+  input[type="text"]{ 
+    width: 280px;
+    height: 25px;
+  } 
+  textarea{
+    width: 280px;
+    height: 86px;
+  }
+  .submit input{
+    padding: 10px 40px;
+  }
+  /* フッター */
+  .end-nav ul{
+    margin-bottom: 25px;
+  }
+  .end-logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
+} 
+@media (max-width:674px){
+  * *::after *::before{
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .about-item,.about-item1,.services-text1{
+    font-size: 20px;
+  }
+  .header-text p,.about-text,.about-text2,.services-text2,.services-item h2,.si-b2,.si-b3{
+    font-size: 11px;
+  }
+  .services-item span,.si-b1,.submit input{
+    font-size: 9.5px;
+  }
+  .sitem-list ul,.contact-list th,.footer p{
+    font-size: 8.5px;
+  }
+  .top-nav a,.contact-text p{
+    font-size: 7px;
+  }
+  .header-text h2{
+    font-size: 17.5px;
+  }
+  .link-contact{
+    font-size: 9px;
+  }
+  .contact-text h1{
+    font-size: 14px;
+  }
+  .end-nav a{
+    font-size: 11px;
+  }
+  /* ヘッダー */
+  .header-text h2{
+    margin: 115px auto 30px;
+  }
+  .header-text p{
+    margin-bottom: 30px;
+  }
+  .link-contact{
+    margin: 40px auto 115px;
+  }
+  /* ABOUT */
+  .about-item1{
+    padding-top: 77.5px;
+  }
+  .about-text{
+    margin:7.5px auto 7.5px;
+    padding: 20px auto 30px;
+  }
+  /* SERVICES */
+  .services-text1{
+    padding-top: 60px;
+  }
+  .services-item{
+    display: block;
+    width: 80%;
+  }
+  .sitem-list{
+    padding: 25px auto 17.5px;
+  }
+  .sitem-list ul{
+    width: 80%;
+  }
+  .si-b3 p{
+    padding: 20px auto 15px;
+  }
+  .services-text2{
+    padding-bottom: 50px;
+  }
+  /* CONTACT */
+  .contact-list {
+    margin: 0 auto;
+  }
+  input[type="text"]{ 
+    width: 280px;
+    height: 25px;
+  } 
+  textarea{
+    width: 280px;
+    height: 86px;
+  }
+  .submit input{
+    padding: 10px 40px;
+  }
+  /* フッター */
+  .end-nav ul{
+    margin-bottom: 25px;
+  }
+  .end-logo{
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
+} 
