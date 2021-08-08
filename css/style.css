@@ -9,7 +9,7 @@ html{
 body{
   background-color: black;
   color: white;
-  max-width: 1920px;
+  min-width: 1920px;
   }
 /* headerのcss */
 .header{ 
@@ -310,8 +310,8 @@ input[type="submit"]{
   font-size: 15px;
   margin: 0;
 }
-/* /* パソコン用 * */
-@media (min-width:1000px){
+/*  パソコン用  */
+@media (min-width:1000px) and(max-width:1920px){
   * *::after *::before{
     box-sizing: border-box;
     width: 100%;
@@ -402,6 +402,7 @@ input[type="submit"]{
     height: 100px;
   }
 } 
+/* スマホ・タブレット用 */
 @media (max-width:674px){
   * *::after *::before{
     box-sizing: border-box;
