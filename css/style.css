@@ -151,10 +151,10 @@ a:link,a:checked,a:hover,a:active{
 .sitem{
   display: block;
   float: left;
-  width: 28.3%;
+  width: 28%;
   border: 1px solid black;
   text-align: center;
-  margin: 70px 2.4% 70px;
+  margin: 70px 2.5% 70px;
 }
 .s-title{
   background: url(../images/マスクグループ\ 3.png) no-repeat;
