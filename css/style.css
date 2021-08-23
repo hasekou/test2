@@ -6,8 +6,7 @@
 body{
   font-size: 62.5%;
   background-color: rgb(49, 47, 47);
-  color: rgb(255, 255, 255);
-  margin: 15px 30px 10px 
+  color: rgb(255, 255, 255); 
 }
 a:link,a:checked,a:hover,a:active{
   color: #fff;
@@ -151,9 +150,9 @@ a:link,a:checked,a:hover,a:active{
 .sitem{
   display: block;
   float: left;
-  width: 28%;
+  width: 22%;
   text-align: center;
-  margin: 70px 2.5% 70px;
+  margin: 70px 5.65% 70px;
 }
 .s-title{
   background: url(../images/マスクグループ\ 3.png) no-repeat;
@@ -178,7 +177,7 @@ a:link,a:checked,a:hover,a:active{
 }
 .s-text1{
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   padding: 20px 0 30px;
 }
 .s-text2{
@@ -192,12 +191,12 @@ a:link,a:checked,a:hover,a:active{
   margin: 0 auto ;
   padding: 7px 0 10px 3px;
   list-style: none;
-  width: 85%;
+  width: 88%;
   background-color: rgb(223, 215, 215);
   text-align: left;
 }
 .s-list li{
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   font-weight: lighter;
 }
 .clearfix::after{
