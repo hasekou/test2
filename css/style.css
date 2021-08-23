@@ -151,10 +151,10 @@ a:link,a:checked,a:hover,a:active{
 .sitem{
   display: block;
   float: left;
-  width: 320px;
+  width: 28.3%;
   border: 1px solid black;
   text-align: center;
-  margin: 70px 45px 70px;
+  margin: 70px 2.4% 70px;
 }
 .s-title{
   background: url(../images/マスクグループ\ 3.png) no-repeat;
@@ -162,17 +162,17 @@ a:link,a:checked,a:hover,a:active{
 }
 .s-h3{
   margin: 0;
-  padding: 10px 10px 0;
-  font-size: 1.2rem;
+  padding: 20px 10px 0;
+  font-size: 1.1rem;
 }
 .s-h4{
   margin: 0;
-  font-size: 1.1rem;
-  padding-bottom: 5px;
+  font-size: 0.9rem;
+  padding-bottom: 20px;
 }
 .s-body{
   background-color: #fff;
-  padding-bottom: 25px;
+  padding-bottom: 35px;
 }
 .s-body p,.s-body li{
   color: black;
@@ -180,20 +180,21 @@ a:link,a:checked,a:hover,a:active{
 .s-text1{
   margin: 0;
   font-size: 0.95rem;
-  padding: 20px 0 20px;
+  padding: 20px 0 30px;
 }
 .s-text2{
-  font-size: 0.9rem;
-  height: 55px;
+  font-size: 1.05rem;
+  height: 60px;
   margin: 0;
   font-weight: bolder;
+  padding-bottom: 10px;
 }
 .s-list ul{
   margin: 0 auto ;
-  padding: 5px 0 5px 3px;
+  padding: 7px 0 10px 3px;
   list-style: none;
   border: 1px solid black;
-  width: 80%;
+  width: 85%;
   background-color: rgb(206, 197, 197);
   text-align: left;
 }
@@ -370,6 +371,7 @@ input[type="submit"]{
    .sitem{
      float: none;
      margin: 70px auto;
+     width: 80%;
    }
    /* お問い合わせ */
    .c-title{
