@@ -1,12 +1,12 @@
 @charset "utf-8";
 * *::after *::before{
   box-sizing: border-box;
-  
 }
 body{
   font-size: 62.5%;
   background-color: rgb(49, 47, 47);
   color: rgb(255, 255, 255); 
+  margin: 10px;
 }
 a:link,a:checked,a:hover,a:active{
   color: #fff;
@@ -245,7 +245,7 @@ a:link,a:checked,a:hover,a:active{
   margin-left: 10px;
 }
 input[type="text"]{
-  width: 70%;
+  width: 60%;
   height: 30px;
   border-radius: 10px;
 }
@@ -254,7 +254,7 @@ input[type="text"]{
   margin-left: 10px;
 }
 textarea{
-  width: 70%;
+  width: 60%;
   height: 100px;
   border-radius: 10px;
 }
@@ -378,7 +378,7 @@ input[type="submit"]{
    .sitem{
      float: none;
      margin: 70px auto;
-     width: 80%;
+     width: 66%;
    }
    /* お問い合わせ */
    .c-title{
