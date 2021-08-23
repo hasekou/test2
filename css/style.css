@@ -152,7 +152,6 @@ a:link,a:checked,a:hover,a:active{
   display: block;
   float: left;
   width: 28%;
-  border: 1px solid black;
   text-align: center;
   margin: 70px 2.5% 70px;
 }
