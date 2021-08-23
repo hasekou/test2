@@ -1,13 +1,13 @@
 @charset "utf-8";
 * *::after *::before{
   box-sizing: border-box;
-  margin: 0;
+  
 }
 body{
   font-size: 62.5%;
   background-color: rgb(49, 47, 47);
   color: rgb(255, 255, 255);
-  margin: 0;
+  margin: 20px
 }
 a:link,a:checked,a:hover,a:active{
   color: #fff;
@@ -331,6 +331,9 @@ input[type="submit"]{
 @media screen and (max-width:650px){
    .br-sp{display: block;}
    .br-pc{display:  none;}
+   body{
+     margin: 10px;
+   }
    /* ヘッダーとホーム */
    .top-logo{
      width: 50%;
