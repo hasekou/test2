@@ -195,11 +195,12 @@ a:link,a:checked,a:hover,a:active{
   list-style: none;
   border: 1px solid black;
   width: 85%;
-  background-color: rgb(206, 197, 197);
+  background-color: rgb(223, 215, 215);
   text-align: left;
 }
 .s-list li{
-  font-size: 0.65rem
+  font-size: 0.75rem;
+  font-weight: lighter;
 }
 .clearfix::after{
   content: '';
